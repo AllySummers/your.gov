@@ -1,0 +1,35 @@
+form {
+	margin: 0 auto 15px auto;
+}
+
+.form-error {
+	color: red;
+	margin-bottom: -10px;
+}
+
+.last-row-error {
+	margin-bottom: 10px !important;
+}
+
+#form-success {
+	text-align: center;
+	color: green;
+	margin-top: 10px;
+}
+
+/* Extra Large */
+@media (min-width: 1200px) {
+	.candidate {
+		max-width: 20%;
+		margin: 0 auto;
+	}
+
+	.candidate-div {
+		max-width: 75%;
+		margin: 0 auto;
+	}
+}
+
+form button[type="submit"] {
+	margin-top: 15px;
+}

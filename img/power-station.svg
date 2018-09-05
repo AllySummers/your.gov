@@ -1,0 +1,29 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 180" style="enable-background:new 0 0 200 188;" xml:space="preserve">
+	 <defs>
+	 </defs>
+	<style type="text/css">
+		.st0{fill:blue;stroke:#000000;stroke-width:0.1;stroke-miterlimit:10;}
+	</style>
+<!-- 	<path id="shape" class="st0" d="
+		M 50,0.5
+		L 100,0.5
+		M 0,179.5
+		L 150,179.5
+		M 50,0.5
+		A 90,179.5 0 0 1 0,179.5
+		M 100,0.5
+		A 90,179.5 0 0 0 150,179.5
+		M 50,0.5
+
+		z" /> -->
+		<path class="st0" d="
+			M 50,0.5
+			L 100,0.5
+			A 100,200 0 0 0 150,179.5
+			L 0,179.5
+			A 100,200 0 0 0 50,0.5
+		z" />
+</svg>
+
+<path class="st0" d="M 50,0.5 L 100,0.5 A 100,200 0 0 0 150,179.5 L 0,179.5 A 100,200 0 0 0 50,0.5 z" />

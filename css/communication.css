@@ -1,0 +1,17 @@
+.good {
+	color: green;
+}
+
+.ok {
+	color: orange;
+}
+
+
+.bad {
+	color: red;
+}
+
+.fas {
+	font-size: 1.3rem;
+	font-weight: bold;
+}

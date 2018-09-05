@@ -1,0 +1,143 @@
+/* HEADER */
+
+body {
+	background-color: #ffffff;
+}
+
+header {
+	border-bottom: 1px solid black;
+	filter: invert(100%);
+}
+
+.nav-link {
+	text-shadow: -1px 0 rgba(0, 0, 0, 0.2), 0 1px rgba(0, 0, 0, 0.2), 1px 0 rgba(0, 0, 0, 0.2), 0 -1px rgba(0, 0, 0, 0.2);
+}
+
+.active .nav-link {
+	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+/* MENU */
+
+nav.bg-light {
+	background-color: #fff !important;
+	font-weight: bolder;
+}
+
+.force-center {
+	display: block;
+	text-align: center !important;
+	margin: 0 auto !important;
+}
+
+header nav img {
+	margin: 0 0 0 12.5%;
+	max-width: 15%;
+	height: unset;
+	position: relative;
+	left: -10px;
+}
+
+nav #branding p {
+	display: inline;
+	margin: -5% 0 -5% 15%;
+	font-weight: bold;
+	color: black;
+}
+
+@media (min-width: 992px) {
+	nav #branding p {
+		position: relative;
+		bottom: -10px;
+		left: -10px;
+		font-size: 3em;
+	}
+	.mobile-only {
+		display: none;
+	}
+}
+
+@media (max-width: 991.98px) {
+	nav #branding p {
+		display: none;
+	}
+
+	nav a#brand-mobile {
+		position: absolute;
+		top: 20px;
+		width: 50%;
+		margin: 0 25%;
+		text-align: center;
+		color: black;
+		font-weight: bold;
+		font-size: 2.2em;
+	}
+
+	button.navbar-toggler {
+		position: absolute;
+		right: 20px;
+		top: 25px;
+	}
+
+	nav #branding img {
+		left: 20px;
+		top: 5px;
+		max-width: 12.5%;
+		margin: 0;
+	}
+}
+
+@media (min-width: 991.98px) and (max-width: 1240px) {
+	#navbarColor03 ul li:first-child {
+		position: relative;
+		bottom: -22px;
+	}
+}
+
+@media (min-width: 1238.98px) and (max-width: 1240px) {
+	#navbarColor03 ul:first-child {
+		position: relative;
+		top: 10px;
+	}
+}
+
+@media (min-width: 1240px) and (max-width: 1810.98px) {
+		#navbarColor03 ul li:first-child {
+		position: relative;
+		bottom: -11px;
+	}
+}
+
+
+/* FOOTER */
+
+footer {
+	position: relative;
+	top: 1em;
+}
+
+footer div div:first-child {
+	float: left;
+	font-style: italic;
+	max-width: 35%;
+}
+
+footer div div:last-child {
+	float: right;
+	text-align: right;
+	font-style: italic;
+	max-width: 35%;
+} 
+
+/* MAIN */
+
+body {
+	background-color: rgba(0, 0, 0, 0.01);
+	background-color: #fff !important;
+}
+
+.source:before {
+	content: '\A';
+	white-space: pre;
+	line-height: 0.5;
+}

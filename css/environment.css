@@ -1,0 +1,54 @@
+.power-station {
+	fill: none;
+	stroke: #000000;
+	stroke-width: 0.3;
+	stroke-miterlimit: 10;
+}
+
+.power-value {
+	position: relative;
+	bottom: -30%;
+}
+
+button.btn {
+	margin: 5% auto 0 auto !important;
+	text-align: center !important;
+	display: block;
+}
+
+#power-1-parent, #power-2-parent {
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	border-bottom: 1px solid lightgray;
+}
+
+#login {
+	margin: 1% auto !important;
+}
+
+.form-error {
+	color: red;
+}
+
+button.btn#btn_refresh {
+	margin-top: 5px !important;
+}
+
+#description {
+	text-align: center;
+	display: block;
+}
+
+#description p {
+	padding-bottom: 5px;
+}
+
+#description a {
+	margin-top: -3%;
+}
+
+.source:before {
+	content: '\A\A';
+	white-space: pre;
+	line-height: 0.5;
+}
